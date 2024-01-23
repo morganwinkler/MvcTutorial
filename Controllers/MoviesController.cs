@@ -20,19 +20,19 @@ namespace MvcTutorial.Controllers
     }
 
     // GET: Movies
-    public async Task<IActionResult> Index(string searchString)
+    public async Task<IActionResult> Index(string id)
     {
       if (_context.Movie == null)
       {
         return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
       }
-      //creates a LINQ queary to select the movies
+
       var movies = from m in _context.Movie
                    select m;
 
-      if (!String.IsNullOrEmpty(searchString))
+      if (!String.IsNullOrEmpty(id))
       {
-        movies = movies.Where(s => s.Title!.Contains(searchString));
+        movies = movies.Where(s => s.Title!.Contains(id));
       }
 
       return View(await movies.ToListAsync());
