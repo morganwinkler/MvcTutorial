@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcTutorial")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecf29a254719d852d6b7af8d9aa7be02cb3c6787")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfee6ae1eefa9a445c615ae522dbdaa5b2e95476")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcTutorial")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcTutorial")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
